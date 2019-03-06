@@ -12,6 +12,7 @@
         <module>learn-demo-base</module>
         <module>learn-demo-cache</module>
         <module>learn-demo-dubbo</module>
+        <module>learn-demo-mq</module>
     </modules>
 
 
