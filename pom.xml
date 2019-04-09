@@ -14,6 +14,7 @@
         <module>learn-demo-dubbo</module>
         <module>learn-demo-mq</module>
         <module>learn-demo-selenium</module>
+        <module>learn-demo-guava</module>
     </modules>
 
 
