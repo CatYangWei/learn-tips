@@ -9,9 +9,9 @@ import com.google.common.hash.Funnels;
  * @date 2019年04月02日
  * @since v1.0.0
  */
-public class Boot {
+public class BloomFilterExample {
     public static void main(String[] args) {
-        BloomFilter<Integer> bloom = BloomFilter.create(Funnels.integerFunnel(),10000000);
+        BloomFilter<Integer> bloom = com.google.common.hash.BloomFilter.create(Funnels.integerFunnel(),10000000);
 
     }
 }

@@ -15,6 +15,8 @@
         <module>learn-demo-mq</module>
         <module>learn-demo-selenium</module>
         <module>learn-demo-guava</module>
+        <module>learn-demo-sofa</module>
+        <module>learn-demo-io</module>
     </modules>
 
 
