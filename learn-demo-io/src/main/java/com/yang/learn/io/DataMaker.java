@@ -37,8 +37,8 @@ public class DataMaker {
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
         long start = System.currentTimeMillis();
-        for (int i=1;i<=this.lineNum;i++){
-            bufferedWriter.append(String.valueOf(i)+PLACE_HOLDER);
+        for (int i=2000001;i<=this.lineNum;i++){
+            bufferedWriter.append("13852"+i);
             bufferedWriter.newLine();
         }
         long end = System.currentTimeMillis();
