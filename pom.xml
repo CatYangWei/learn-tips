@@ -17,6 +17,7 @@
         <module>learn-demo-guava</module>
         <module>learn-demo-sofa</module>
         <module>learn-demo-io</module>
+        <module>learn-demo-bytecode</module>
     </modules>
 
 
