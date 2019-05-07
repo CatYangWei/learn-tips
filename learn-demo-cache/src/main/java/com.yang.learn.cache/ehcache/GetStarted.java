@@ -6,6 +6,8 @@ import org.ehcache.config.builders.CacheConfigurationBuilder;
 import org.ehcache.config.builders.CacheManagerBuilder;
 import org.ehcache.config.builders.ResourcePoolsBuilder;
 
+import java.util.BitSet;
+
 public class GetStarted {
     public static void main(String[] args) {
         CacheManager cacheManager = CacheManagerBuilder.newCacheManagerBuilder()
@@ -14,6 +16,5 @@ public class GetStarted {
       Cache<String,String> myCache =  cacheManager.getCache("mycache",String.class,String.class);
       myCache.put("key1","v1");
       System.out.println(myCache.get("key1"));
-
     }
 }

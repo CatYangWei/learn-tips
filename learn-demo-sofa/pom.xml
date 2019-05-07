@@ -9,21 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>learn-demo-mq</artifactId>
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.6.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
-        <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
-            <version>2.1.0</version>
-        </dependency>
+    <artifactId>learn-demo-sofa</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-rpc-all</artifactId>
+            <version>5.3.1</version>
+        </dependency>
     </dependencies>
 
 </project>

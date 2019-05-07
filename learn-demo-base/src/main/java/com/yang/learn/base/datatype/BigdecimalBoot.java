@@ -2,6 +2,7 @@ package com.yang.learn.base.datatype;
 
 import java.math.BigDecimal;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.HashMap;
 
 /**
  * @author yangweia
@@ -11,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class BigdecimalBoot {
     public static void main(String[] args) {
-        BigDecimal val = new BigDecimal(360);
-        System.out.println(new BigDecimal(21.6).divide(val,4,BigDecimal.ROUND_HALF_DOWN));
+        int userNum = Integer.valueOf("1000012665");
+        System.out.println(userNum);
     }
 }

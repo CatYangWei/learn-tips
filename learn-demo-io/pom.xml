@@ -9,11 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>learn-demo-base</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>../learn-demo-batch</module>
-    </modules>
+    <artifactId>learn-demo-io</artifactId>
 
 
 </project>
