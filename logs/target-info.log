@@ -1,0 +1,88 @@
+[2019-05-10 11:15:59.537] [pool-1-thread-4] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-4, - 4-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-3] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-3, - 3-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-8] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-8, - 8-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-6] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-6, - 6-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-9] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-9, - 9-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-1] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-1, - 1-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-2] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-2, - 2-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-5] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-5, - 5-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-7] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-7, - 7-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.537] [pool-1-thread-10] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-10, - 10-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:15:59.552] [main] INFO com.yang.learn.io.MultiThreadWrite main, - file make complete!!
+[2019-05-10 11:18:52.710] [pool-1-thread-8] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-8, - 8-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-6] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-6, - 6-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-7] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-7, - 7-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-3] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-3, - 3-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-4] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-4, - 4-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-2] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-2, - 2-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-1] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-1, - 1-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-10] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-10, - 10-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-9] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-9, - 9-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.710] [pool-1-thread-5] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-5, - 5-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:18:52.724] [main] INFO com.yang.learn.io.MultiThreadWrite main, - file make complete!!
+[2019-05-10 11:21:02.960] [pool-1-thread-6] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-6, - 6-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.966] [pool-1-thread-10] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-10, - 10-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.960] [pool-1-thread-3] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-3, - 3-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.960] [pool-1-thread-7] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-7, - 7-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.960] [pool-1-thread-8] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-8, - 8-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.960] [pool-1-thread-1] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-1, - 1-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.960] [pool-1-thread-5] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-5, - 5-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.960] [pool-1-thread-2] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-2, - 2-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.960] [pool-1-thread-4] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-4, - 4-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.960] [pool-1-thread-9] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-9, - 9-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:02.983] [main] INFO com.yang.learn.io.MultiThreadWrite main, - file make complete!!
+[2019-05-10 11:21:48.948] [pool-1-thread-9] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-9, - 9-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.943] [pool-1-thread-7] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-7, - 7-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.943] [pool-1-thread-5] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-5, - 5-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.944] [pool-1-thread-1] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-1, - 1-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.943] [pool-1-thread-3] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-3, - 3-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.944] [pool-1-thread-2] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-2, - 2-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.943] [pool-1-thread-6] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-6, - 6-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.943] [pool-1-thread-10] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-10, - 10-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.943] [pool-1-thread-8] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-8, - 8-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.943] [pool-1-thread-4] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-4, - 4-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:21:48.961] [main] INFO com.yang.learn.io.MultiThreadWrite main, - file make complete!!
+[2019-05-10 11:22:45.844] [pool-1-thread-6] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-6, - 6-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.844] [pool-1-thread-8] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-8, - 8-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.844] [pool-1-thread-7] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-7, - 7-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.845] [pool-1-thread-5] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-5, - 5-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.844] [pool-1-thread-3] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-3, - 3-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.844] [pool-1-thread-1] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-1, - 1-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.844] [pool-1-thread-9] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-9, - 9-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.844] [pool-1-thread-2] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-2, - 2-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.849] [pool-1-thread-10] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-10, - 10-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.844] [pool-1-thread-4] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-4, - 4-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:22:45.862] [main] INFO com.yang.learn.io.MultiThreadWrite main, - file make complete!!
+[2019-05-10 11:23:21.047] [pool-1-thread-8] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-8, - 8-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.047] [pool-1-thread-2] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-2, - 2-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.047] [pool-1-thread-10] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-10, - 10-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.047] [pool-1-thread-7] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-7, - 7-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.047] [pool-1-thread-5] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-5, - 5-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.047] [pool-1-thread-3] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-3, - 3-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.047] [pool-1-thread-4] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-4, - 4-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.047] [pool-1-thread-1] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-1, - 1-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.052] [pool-1-thread-9] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-9, - 9-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.047] [pool-1-thread-6] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-6, - 6-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:23:21.065] [main] INFO com.yang.learn.io.MultiThreadWrite main, - file make complete!!
+[2019-05-10 11:25:43.475] [pool-1-thread-8] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-8, - 8-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.475] [pool-1-thread-5] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-5, - 5-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.474] [pool-1-thread-9] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-9, - 9-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.475] [pool-1-thread-7] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-7, - 7-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.479] [pool-1-thread-1] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-1, - 1-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.474] [pool-1-thread-10] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-10, - 10-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.475] [pool-1-thread-4] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-4, - 4-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.475] [pool-1-thread-6] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-6, - 6-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.474] [pool-1-thread-2] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-2, - 2-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.474] [pool-1-thread-3] INFO com.yang.learn.io.MultiThreadWrite$Writer pool-1-thread-3, - 3-寮�濮嬪啓鍏ユ暟鎹�
+[2019-05-10 11:25:43.493] [main] INFO com.yang.learn.io.MultiThreadWrite main, - file make complete!!
+[2019-05-10 11:30:01.721] [pool-1-thread-9] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-9, - 9-开始写入数据
+[2019-05-10 11:30:01.716] [pool-1-thread-5] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-5, - 5-开始写入数据
+[2019-05-10 11:30:01.716] [pool-1-thread-10] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-10, - 10-开始写入数据
+[2019-05-10 11:30:01.721] [pool-1-thread-1] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-1, - 1-开始写入数据
+[2019-05-10 11:30:01.716] [pool-1-thread-4] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-4, - 4-开始写入数据
+[2019-05-10 11:30:01.716] [pool-1-thread-8] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-8, - 8-开始写入数据
+[2019-05-10 11:30:01.716] [pool-1-thread-6] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-6, - 6-开始写入数据
+[2019-05-10 11:30:01.716] [pool-1-thread-7] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-7, - 7-开始写入数据
+[2019-05-10 11:30:01.716] [pool-1-thread-3] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-3, - 3-开始写入数据
+[2019-05-10 11:30:01.716] [pool-1-thread-2] INFO com.yang.learn.io.MultiThreadWriter$Writer pool-1-thread-2, - 2-开始写入数据
+[2019-05-10 11:30:01.737] [main] INFO com.yang.learn.io.MultiThreadWriter main, - file make complete!!
