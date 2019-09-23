@@ -19,13 +19,13 @@ public class Boot {
         //使用execute()同步调用代码,效果等同于:helloWorldCommand.queue().get();
         String result = helloWorldCommand.execute();
         System.out.println("result=" + result);
-
-        helloWorldCommand = new HelloWorldCommand("Asynchronous-hystrix");
-        //异步调用,可自由控制获取结果时机,
-        Future<String> future = helloWorldCommand.queue();
-        //get操作不能超过command定义的超时时间,默认:1秒
-        result = future.get(100, TimeUnit.MILLISECONDS);
-        System.out.println("result=" + result);
-        System.out.println("mainThread=" + Thread.currentThread().getName());
+//
+//        helloWorldCommand = new HelloWorldCommand("Asynchronous-hystrix");
+//        //异步调用,可自由控制获取结果时机,
+//        Future<String> future = helloWorldCommand.queue();
+//        //get操作不能超过command定义的超时时间,默认:1秒
+//        result = future.get(100, TimeUnit.MILLISECONDS);
+//        System.out.println("result=" + result);
+//        System.out.println("mainThread=" + Thread.currentThread().getName());
     }
 }

@@ -32,6 +32,7 @@ public class BootConsumerNoGroup {
             for (ConsumerRecord<String, String> record : records) {
                 System.out.printf("offset = %d, value = %s", record.offset(), record.value());
                 System.out.println();
+                kafkaConsumer.commitAsync();
             }
         }
     }

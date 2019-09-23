@@ -11,9 +11,18 @@
 
     <artifactId>learn-demo-base</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>../learn-demo-batch</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.roaringbitmap</groupId>
+            <artifactId>RoaringBitmap</artifactId>
+            <version>0.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.39.Final</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

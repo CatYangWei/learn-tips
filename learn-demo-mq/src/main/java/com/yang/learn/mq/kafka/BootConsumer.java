@@ -4,8 +4,10 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author yangweia
@@ -17,7 +19,7 @@ public class BootConsumer {
     public static void main(String[] args) {
         Properties properties = new Properties();
         properties.put("bootstrap.servers", "127.0.0.1:9092");
-        properties.put("group.id", "group-1");
+        properties.put("group.id", "group-2");
         properties.put("enable.auto.commit", "true");
         properties.put("auto.commit.interval.ms", "1000");
         properties.put("auto.offset.reset", "earliest");
@@ -26,12 +28,17 @@ public class BootConsumer {
         properties.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 
         KafkaConsumer<String, String> kafkaConsumer = new KafkaConsumer<>(properties);
-        kafkaConsumer.subscribe(Arrays.asList("HelloWorld"));
+        kafkaConsumer.subscribe(Arrays.asList("HelloWorld","HelloWorld-new"));
         while (true) {
-            ConsumerRecords<String, String> records = kafkaConsumer.poll(100);
+            ConsumerRecords<String, String> records = kafkaConsumer.poll(Duration.ofMillis(1000));
             for (ConsumerRecord<String, String> record : records) {
-                System.out.printf("offset = %d, value = %s", record.offset(), record.value());
+                System.out.printf("offset = %d, value = %s,topic = %s", record.offset(), record.value(),record.topic());
                 System.out.println();
+            }
+            try {
+                TimeUnit.MICROSECONDS.sleep(1000);
+            }catch (Exception e){
+
             }
         }
     }

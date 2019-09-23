@@ -1,0 +1,28 @@
+<config
+        xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xmlns='http://www.ehcache.org/v3'
+        xsi:schemaLocation="http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core.xsd">
+    <!--声明一个cache-->
+    <cache alias="c1">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap unit="entries">200</heap>
+            <offheap unit="MB">20</offheap>
+        </resources>
+    </cache>
+
+    <!--声明一个cache模板-->
+    <cache-template name="myDefaults">
+        <key-type>java.lang.Long</key-type>
+        <value-type>java.lang.String</value-type>
+        <heap unit="entries">200</heap>
+    </cache-template>
+
+    <!--使用myDefaults模板 自定义覆盖其key属性-->
+    <cache alias="bar" uses-template="myDefaults">
+        <key-type>java.lang.Number</key-type>
+    </cache>
+    <!--完全使用myDefaults模板-->
+    <cache alias="simpleCache" uses-template="myDefaults" />
+</config>

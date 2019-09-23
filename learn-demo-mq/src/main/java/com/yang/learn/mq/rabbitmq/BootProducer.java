@@ -1,6 +1,8 @@
 package com.yang.learn.mq.rabbitmq;
 
+import com.alibaba.fastjson.JSONObject;
 import com.rabbitmq.client.*;
+import com.yang.learn.mq.pojo.Message;
 import com.yang.learn.mq.rabbitmq.config.Config;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -20,16 +22,21 @@ public class BootProducer {
         channel.queueBind(Config.QUEUE_NAME,Config.EXCHANGE_NAME,Config.ROUTE_KEY);
 
         AtomicInteger atomicInteger = new AtomicInteger(1);
+        Integer count =0;
+        while (count<1){
+            Message message = new Message();
+            message.setPolicyId("PolicyId");
+            message.setImsi("18883851234");
 
-        while (true){
-            String message = "MESSAGE,NO-"+atomicInteger.get();
-            channel.basicPublish(Config.EXCHANGE_NAME,Config.ROUTE_KEY,MessageProperties.PERSISTENT_TEXT_PLAIN,message.getBytes());
-            System.out.println("PUBLISH:"+message);
+            String messageExt = JSONObject.toJSONString(message);
+            channel.basicPublish(Config.EXCHANGE_NAME,Config.ROUTE_KEY,MessageProperties.PERSISTENT_TEXT_PLAIN,messageExt.getBytes());
+            System.out.println("PUBLISH:"+messageExt);
             Thread.sleep(1000);
             atomicInteger.addAndGet(1);
             if(atomicInteger.get()== 1000000){
                 break;
             }
+            count++;
         }
 
         channel.close();
