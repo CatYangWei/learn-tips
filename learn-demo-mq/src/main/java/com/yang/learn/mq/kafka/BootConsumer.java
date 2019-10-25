@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 public class BootConsumer {
     public static void main(String[] args) {
         Properties properties = new Properties();
-        properties.put("bootstrap.servers", "127.0.0.1:9092");
+        properties.put("bootstrap.servers", "10.19.13.49:9097,10.19.13.49:9098,10.19.13.49:9099");
         properties.put("group.id", "group-2");
         properties.put("enable.auto.commit", "true");
         properties.put("auto.commit.interval.ms", "1000");
@@ -28,7 +28,7 @@ public class BootConsumer {
         properties.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 
         KafkaConsumer<String, String> kafkaConsumer = new KafkaConsumer<>(properties);
-        kafkaConsumer.subscribe(Arrays.asList("HelloWorld","HelloWorld-new"));
+        kafkaConsumer.subscribe(Arrays.asList("roamfield-topic"));
         while (true) {
             ConsumerRecords<String, String> records = kafkaConsumer.poll(Duration.ofMillis(1000));
             for (ConsumerRecord<String, String> record : records) {

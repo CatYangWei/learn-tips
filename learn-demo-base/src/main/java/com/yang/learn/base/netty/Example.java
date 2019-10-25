@@ -10,7 +10,11 @@ import io.netty.channel.EventLoopGroup;
  */
 public class Example {
     public static void main(String[] args) {
-        System.out.println(-1>>>3);
+        String str = "-----------";
+        char[] chars = str.toCharArray();
+        chars[3] = 'B';
+        String str1 = new String(chars);
+        System.out.println(str1);
 
     }
 }

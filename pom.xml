@@ -19,6 +19,7 @@
         <module>learn-demo-io</module>
         <module>learn-demo-bytecode</module>
         <module>learn-demo-limit</module>
+        <module>learn-demo-algorithm</module>
     </modules>
 
     <dependencies>

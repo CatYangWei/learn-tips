@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class BootProducer {
     public static void main(String[] args)throws Exception {
         Properties properties = new Properties();
-        properties.put("bootstrap.servers", "127.0.0.1:9092");
+        properties.put("bootstrap.servers", "10.19.13.49:9097,10.19.13.49:9098,10.19.13.49:9099");
         properties.put("acks", "all");
         properties.put("retries", 0);
         properties.put("batch.size", 16384);
@@ -30,13 +30,12 @@ public class BootProducer {
             producer = new KafkaProducer<String, String>(properties);
             AtomicInteger atomicInteger = new AtomicInteger(100);
             while (true){
-                String msg = "Message " + atomicInteger.get();
-                producer.send(new ProducerRecord<String, String>("HelloWorld", msg));
+                String msg = "{\"appId\":\"1\",\"typeName\":\"回省\",\"msgBody\":{\"START_TIME\":\"2019/10/15 08:00:00\",\"MSISDN\":\"13870484857\",\"DES_ID\":\"25\",\"ROAMING_TYPE\":\"2\"} ,\"msgCode\":\"Customer_Roaming\",\"typeCode\":\"back_prov\"}";
+                producer.send(new ProducerRecord<String, String>("roamer-topic", msg));
                 System.out.println("Sent:" + msg);
-                producer.send(new ProducerRecord<String, String>("HelloWorld-new", msg+"new"));
-                System.out.println("Sent:" + msg+"new");
                 atomicInteger.incrementAndGet();
                 TimeUnit.SECONDS.sleep(1);
+
             }
 
         } catch (Exception e) {

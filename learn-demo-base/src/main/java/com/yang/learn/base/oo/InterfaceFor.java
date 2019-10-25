@@ -12,7 +12,6 @@ public class InterfaceFor {
             System.out.println("eat");
         }
     }
-
     private interface Apple{
         void eat();
     }
