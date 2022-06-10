@@ -11,7 +11,7 @@
 
     <artifactId>learn-demo-dubbo</artifactId>
     <properties>
-        <dubbo.version>2.6.2</dubbo.version>
+        <dubbo.version>2.6.12</dubbo.version>
         <spring.version>4.3.10.RELEASE</spring.version>
         <javassist.version>3.21.0-GA</javassist.version>
         <netty.version>3.2.5.Final</netty.version>
